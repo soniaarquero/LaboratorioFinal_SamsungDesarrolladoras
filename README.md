@@ -8,19 +8,7 @@ Incluidos los códigos .html, .css, .js, .php y .sql para el desarrollo de la pr
 
 En el front-end:
 
-Crearemos un formulario con los siguientes campos:
-
--        Nombre
-
--        Primer apellido
-
--        Segundo apellido
-
--        email
-
--        Login
-
--        Password
+Crearemos un formulario con los campos: nombre, primer apellido, segundo apellido, email, login y password.
 
  <img width="633" alt="Captura de Pantalla 2023-06-10 a las 23 25 43" src="https://github.com/soniaarquero/LaboratorioFinal_SamsungDesarrolladoras/assets/52462946/a16b3db6-60ac-4168-aaa1-d917ccbb4139">
 

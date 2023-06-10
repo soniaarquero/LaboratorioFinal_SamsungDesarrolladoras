@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #643843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #99627A;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #C88EA7;
+    padding: 40px;
+    width: 600px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  label {
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  input[type="submit"] {
+    background-color: #E7CBCB;
+    color: #643843;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    cursor:pointer;
+    margin-bottom: 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #C88EA7;
+  }
+
+  button {
+    background-color: #E7CBCB;
+    border: none;
+    border-radius: 4px;
+    color: #643843;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  
+  button:hover {
+    background-color: #C88EA7;
+  }
+  
+  .button-consulta {
+    background-color: #f2b880;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .button-consulta:hover {
+    background-color: #e2a36c;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #E7CBCB;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #C88EA7;
+}
